@@ -92,7 +92,7 @@ These Beats allow us to collect the following information from each machine:
 
    ![Click to see Image!](Images/Filebeat.png)
    
-   ![Click to see Image!](main/Images/Kibana_Logs.png)
+   ![Click to see Image!](Images/Kibana_Logs.png)
 
  Metricbeat allows the ELK Server to monitor metrics use; CPU, memory usage, and monitors what is coming in and out of the server at specified moments in time. 
  This allows regulation resources once volume of traffic is predetermined. 
