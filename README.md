@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Click to see Image!](/tree/main/Images/James-Diagram_CloudNetworkSecurity.jpg)
+![Click to see Image!](Images/James-Diagram_CloudNetworkSecurity.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
