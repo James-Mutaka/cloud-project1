@@ -82,8 +82,8 @@ We have installed the following Beats on these machines:
 - Specify which Beats you successfully installed
   Filebeat and Metricbeat are installed all the 3 Web Servers VMs for monitoring purpose.
 
-    ![Click to see details!](tree/main/Images/Filebeat-Kibana_SnapshotCapture.png)
-    ![Click to see details!](tree/main/Images/Metricbeat-Kibana_snapshot.png)
+    ![Click to see details!](/Images/Filebeat-Kibana_SnapshotCapture.png?)
+    ![Click to see details?](/Images/Metricbeat-Kibana_snapshot.png)
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
