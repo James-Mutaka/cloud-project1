@@ -69,9 +69,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Run playbook file via ansible playbook command, thereby pushing tasks to all machines configured to receive
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-    ![Click to see details!](Images/myansible.png)
+    ![Click to see details!](Images/myansible.PNG)
     
-    ![Click to see details!](Images/ansible_serviceUp.png)
+    ![Click to see details!](Images/ansible_serviceUp.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -82,22 +82,22 @@ We have installed the following Beats on these machines:
 - Specify which Beats you successfully installed
   Filebeat and Metricbeat are installed all the 3 Web Servers VMs for monitoring purpose.
 
-    ![Click to see details!](Images/Filebeat-Kibana_SnapshotCapture.png?)
-    ![Click to see details?](Images/Metricbeat-Kibana_snapshot.png)
+    ![Click to see details!](Images/Filebeat-Kibana_SnapshotCapture.PNG)
+    ![Click to see details?](Images/Metricbeat-Kibana_snapshot.PNG)
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
  Filebeat allows ELK Server to monitor files being accessed,keeping tracks of access(authorized or unauthorized users),
  if any changes are made to sensetives files such as the login (shadow or passwd files).Downloaded or transferred data.
 
-   ![Click to see Image!](Images/Filebeat.png)
+   ![Click to see Image!](Images/Filebeat.PNG)
    
-   ![Click to see Image!](Images/Kibana_Logs.png)
+   ![Click to see Image!](Images/Kibana_Logs.PNG)
 
  Metricbeat allows the ELK Server to monitor metrics use; CPU, memory usage, and monitors what is coming in and out of the server at specified moments in time. 
  This allows regulation resources once volume of traffic is predetermined. 
 
-  ![Click to see Image!](Images/metric_kibana.png)
+  ![Click to see Image!](Images/metric_kibana.PNG)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
