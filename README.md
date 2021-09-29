@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Click to see Image!](/Images/James-Diagram_CloudNetworkSecurity.jpg?)
+![Click to see Image!](/tree/main/Images/James-Diagram_CloudNetworkSecurity.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -69,7 +69,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Run playbook file via ansible playbook command, thereby pushing tasks to all machines configured to receive
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-    ![Click to see details!](tree/main/Images/myansible.png)
+    ![Click to see details!](/tree/main/Images/myansible.png)
     
     ![Click to see details!](/tree/main/Images/ansible_serviceUp.png)
 
@@ -82,22 +82,22 @@ We have installed the following Beats on these machines:
 - Specify which Beats you successfully installed
   Filebeat and Metricbeat are installed all the 3 Web Servers VMs for monitoring purpose.
 
-    ![Click to see details!](/Images/Filebeat-Kibana_SnapshotCapture.png?)
-    ![Click to see details?](/Images/Metricbeat-Kibana_snapshot.png)
+    ![Click to see details!](/tree/main/Images/Filebeat-Kibana_SnapshotCapture.png?)
+    ![Click to see details?](/tree/main/Images/Metricbeat-Kibana_snapshot.png)
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
  Filebeat allows ELK Server to monitor files being accessed,keeping tracks of access(authorized or unauthorized users),
  if any changes are made to sensetives files such as the login (shadow or passwd files).Downloaded or transferred data.
 
-   ![Click to see Image!](tree/main/Images/Filebeat.png)
+   ![Click to see Image!](/tree/main/Images/Filebeat.png)
    
-   ![Click to see Image!](tree/main/Images/Kibana_Logs.png)
+   ![Click to see Image!](/tree/main/Images/Kibana_Logs.png)
 
  Metricbeat allows the ELK Server to monitor metrics use; CPU, memory usage, and monitors what is coming in and out of the server at specified moments in time. 
  This allows regulation resources once volume of traffic is predetermined. 
 
-  ![Click to see Image!](tree/main/Images/metric_kibana.png)
+  ![Click to see Image!](/Images/metric_kibana.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
